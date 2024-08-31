@@ -1,0 +1,59 @@
+# CMake build directories
+/build/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+
+# Compiler output
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# IDE-specific files
+# For Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.suo
+
+# For CLion
+.idea/
+
+# For Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+
+# General temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.thumb
+
+# Node.js related
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# macOS specific
+*.DS_Store
+
+# Linux specific
+*~
+*.swp
