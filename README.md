@@ -1,6 +1,9 @@
 # Silly
 
 **Silly** is a simple C++ application that fetches and renders HTML from web pages using `curl`. It is designed to work primarily with older and simple websites. The project leverages the SDL2 and SDL2_ttf libraries for rendering the HTML content.
+<img width="912" alt="Screenshot 2024-08-15 at 3 45 54 PM" src="https://github.com/user-attachments/assets/038a4818-fc26-42d6-b0f1-bfba42782240">
+<img width="1127" alt="Screenshot 2024-08-16 at 10 35 10 PM" src="https://github.com/user-attachments/assets/50fd4d48-ae4e-4d70-bc2c-3a22f6b115a0">
+<img width="1127" alt="Screenshot 2024-08-20 at 7 26 14 PM" src="https://github.com/user-attachments/assets/385a5bf0-85e9-4835-8c2b-515071081619">
 
 ## Features
 
@@ -22,7 +25,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/vigneshk5/Silly.git
+   git clone https://github.com/vigneshk5/silly.git
    cd Silly
    ```
 
@@ -49,13 +52,13 @@
 After building the project, you can run **Silly** by executing the following command from the `build` directory:
 
 ```bash
-./Silly
+./silly
 ```
 
 You can provide a URL and render its HTML:
 
 ```bash
-./Silly
+./silly
 ```
 
 ## Project Structure
@@ -67,4 +70,4 @@ You can provide a URL and render its HTML:
 - **CMakeLists.txt**: CMake configuration file.
 
 ---
-# silly
+
